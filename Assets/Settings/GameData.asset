@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 348176d60dbda0346aaa191239b5abd1, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  distanceToRecast: 0.0001
+  characterGridMove: 20
+  timeToSelect: 0.2
+  timeWhenEndTouchToClick: 0.15
+  startMoney: 100
+  moneyForCharacter: 100
+  moneyForCharacterMultiplier: 1.08
+  moneyForLevel: 200
+  moneyForLevelMultiplier: 1.45
+  equilMoneyForLevelAfterLevel: 20
+  indicatorSpeed: 2
+  powerScale: 0.25
+  enemyTimeToActionRange: {x: 0.5, y: 2}
+  ropeMoveSpeed: 10
+  ropePrepareTime: 1
+  characterRopeXOffset: 0.8
+  characterJumpDuration: 2
+  characterJumpPower: 6
+  fallEndPos: {x: 0, y: -8, z: 0}
+  enableTutorial: 1
+  enableCursor: 0
+  cursorAnimDurationScale: 1
+  enableLazyCursor: 0
+  lazyCursorUseLerp: 1
+  lazyCursorSpeed: 5
+  UIColor: {r: 1, g: 1, b: 0.058823526, a: 1}
+  UITitleColor: {r: 1, g: 0.39729908, b: 0.058823526, a: 1}
+  teamPowerUIOffset: {x: 0, y: 4, z: 0}
+  teamPowerUIScale: {x: 30, y: 30, z: 30}

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c55e01bf6792a46a795a4c671ca87a, type: 3}
+  m_Name: CharacterHolder
+  m_EditorClassIdentifier: 
+  characters:
+  - character: {fileID: 1525895491735252072, guid: 9eb345dbc5c52a54a8a4a05126eb99ef,
+      type: 3}
+    enemy: {fileID: 7269584307382844039, guid: 2277b4d95a237bd4c98a2f50f5a2f122, type: 3}
+    hasChild: 0
+    child: {fileID: 0}
+    needLevels: 0
+  - character: {fileID: 5310572400009640851, guid: 122392667abea6c4daa17bb12ea980a6,
+      type: 3}
+    enemy: {fileID: 8906343553143529325, guid: 9b2db88d685b1bd4b8c68acf2a1b6d3a, type: 3}
+    hasChild: 1
+    child: {fileID: 1525895491735252072, guid: 9eb345dbc5c52a54a8a4a05126eb99ef, type: 3}
+    needLevels: 11
+  - character: {fileID: 1551920969235201324, guid: 3f29759fcfc609f439bba856a685a741,
+      type: 3}
+    enemy: {fileID: 3131883229202775880, guid: 61c68febb067e5c44be2c3fe9fc282f1, type: 3}
+    hasChild: 1
+    child: {fileID: 5310572400009640851, guid: 122392667abea6c4daa17bb12ea980a6, type: 3}
+    needLevels: 16
+  - character: {fileID: 935679205700727135, guid: 02dc4e4f3822731459fa6c25d4b59bbe,
+      type: 3}
+    enemy: {fileID: 5006855175561004083, guid: 8dd676b95275fd348be353d785d9b1b2, type: 3}
+    hasChild: 1
+    child: {fileID: 1551920969235201324, guid: 3f29759fcfc609f439bba856a685a741, type: 3}
+    needLevels: 21
+  - character: {fileID: 6668410062980159127, guid: 00878499bea4bdd44bfcc39040109c2b,
+      type: 3}
+    enemy: {fileID: 8124956270712486066, guid: bd1f132a1cf33ba41892806708a8e834, type: 3}
+    hasChild: 1
+    child: {fileID: 935679205700727135, guid: 02dc4e4f3822731459fa6c25d4b59bbe, type: 3}
+    needLevels: 51
+  - character: {fileID: 3705151680609109997, guid: 216e4b282d439614ea16bd52cdce080a,
+      type: 3}
+    enemy: {fileID: 5637160340422480674, guid: 59689f5c4f0618148b4d463159783c7d, type: 3}
+    hasChild: 1
+    child: {fileID: 6668410062980159127, guid: 00878499bea4bdd44bfcc39040109c2b, type: 3}
+    needLevels: 101
+  - character: {fileID: 3537678753096464994, guid: 0831d32da2fa8a8488323e2613517679,
+      type: 3}
+    enemy: {fileID: 4355903974013459758, guid: 4a6e4c8a5ffe6a948a990f0974a6ebfb, type: 3}
+    hasChild: 1
+    child: {fileID: 3705151680609109997, guid: 216e4b282d439614ea16bd52cdce080a, type: 3}
+    needLevels: 151
+  - character: {fileID: 8471883867334677418, guid: 63d0e7dc0ec315d4981c849eb1bac4c3,
+      type: 3}
+    enemy: {fileID: 5057246723430997107, guid: 5bb5acbc31fc329439603c0c6a29644d, type: 3}
+    hasChild: 1
+    child: {fileID: 3537678753096464994, guid: 0831d32da2fa8a8488323e2613517679, type: 3}
+    needLevels: 201
+  - character: {fileID: 4449551184559334169, guid: 3f123284582ed0c4e8e4882e9c41c982,
+      type: 3}
+    enemy: {fileID: 7310345592103335689, guid: a1cb0e8b3321be947bf0d3755ae6d6a8, type: 3}
+    hasChild: 0
+    child: {fileID: 0}
+    needLevels: -1
+  - character: {fileID: 8722611428896716023, guid: cf0ee265f9be90742ae31ab407e70bd0,
+      type: 3}
+    enemy: {fileID: 3545177359396974582, guid: 844754fcd9926a14baedaae731da317d, type: 3}
+    hasChild: 0
+    child: {fileID: 0}
+    needLevels: -1
+  - character: {fileID: 8912715731413774064, guid: 5c9ba02a15d5f2d49875f03b642b8f4d,
+      type: 3}
+    enemy: {fileID: 8314037259198841881, guid: c54478a2c35876e4e9384d53b58f062a, type: 3}
+    hasChild: 0
+    child: {fileID: 0}
+    needLevels: -1
+  - character: {fileID: 6962216952591145237, guid: ad246499af2a4494490f2fbf8a6fb170,
+      type: 3}
+    enemy: {fileID: 1607595375004800518, guid: 4f606e4e57d3eb241bc8c2ed8558ad92, type: 3}
+    hasChild: 0
+    child: {fileID: 0}
+    needLevels: -1

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2671193473244978795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5195961998371980949}
+  - component: {fileID: 1222336630393169867}
+  - component: {fileID: 2761343425227755937}
+  m_Layer: 0
+  m_Name: ControllerRope
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5195961998371980949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2671193473244978795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1222336630393169867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2671193473244978795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7cd3e1608a6804bb1c1caa671eaf7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appearDelay: 1
+  hideDelay: 0
+  range:
+    ranges:
+    - from: -0.1
+      to: 0.2
+      value: 0.25
+      labels:
+      - {fileID: 21300000, guid: e723582bff53bda44903fdd792de9d44, type: 3}
+      color: {r: 1, g: 0, b: 0, a: 1}
+    - from: 0.2
+      to: 0.4
+      value: 0.5
+      labels:
+      - {fileID: 21300000, guid: 9b4217b714e15bd4998eb9f5c8152bb7, type: 3}
+      color: {r: 1, g: 1, b: 0, a: 1}
+    - from: 0.4
+      to: 0.6
+      value: 1
+      labels:
+      - {fileID: 21300000, guid: 8b48ceb9ef0689c40b1536932c9eed65, type: 3}
+      - {fileID: 21300000, guid: b7a0e32ec056b004f8bd38557256d7d3, type: 3}
+      - {fileID: 21300000, guid: 5b0981f5b67e8804387581130a3fcf8d, type: 3}
+      color: {r: 0, g: 1, b: 0, a: 1}
+    - from: 0.6
+      to: 0.8
+      value: 0.5
+      labels:
+      - {fileID: 21300000, guid: 9b4217b714e15bd4998eb9f5c8152bb7, type: 3}
+      color: {r: 1, g: 1, b: 0, a: 1}
+    - from: 0.8
+      to: 1.1
+      value: 0.25
+      labels:
+      - {fileID: 21300000, guid: e723582bff53bda44903fdd792de9d44, type: 3}
+      color: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &2761343425227755937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2671193473244978795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2918590ac94915d4983e65f478cce9e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: Rope
+  controller: {fileID: 1222336630393169867}

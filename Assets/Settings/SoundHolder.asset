@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a996c492705604889e78d95815b589, type: 3}
+  m_Name: SoundHolder
+  m_EditorClassIdentifier: 
+  soundPacks:
+  - key: Merge
+    sounds:
+    - clip: {fileID: 8300000, guid: 852c6fb74ab4f714c8c5b74fe99f3231, type: 3}
+      volume: 0.5
+  - key: CharacterFall
+    sounds:
+    - clip: {fileID: 8300000, guid: d0017e9f1387d7247b696752c7c8155c, type: 3}
+      volume: 0.3
+  - key: Music
+    sounds:
+    - clip: {fileID: 8300000, guid: aaab71dc0d7dc8246b31a37c8e0dbf43, type: 3}
+      volume: 0.15
+  - key: UIClick
+    sounds:
+    - clip: {fileID: 8300000, guid: fbd14936f25ce6943ac4c9f88e66f578, type: 3}
+      volume: 0.5
+  - key: UIBuy
+    sounds:
+    - clip: {fileID: 8300000, guid: 2ae30009647e8bf4bbcbc9ea038cc830, type: 3}
+      volume: 0.4
+  - key: UICoin
+    sounds:
+    - clip: {fileID: 8300000, guid: 947cde77b9b838e418bf9a478c8beb55, type: 3}
+      volume: 0.3
+    - clip: {fileID: 8300000, guid: 608f6f4bc5fd9824f815ee25caf1ae83, type: 3}
+      volume: 0.3
+    - clip: {fileID: 8300000, guid: 54053275755086a4d9b1a4fd45d7f647, type: 3}
+      volume: 0.3
+    - clip: {fileID: 8300000, guid: 5ffcb5d6daec0194f8e9986ec905c4af, type: 3}
+      volume: 0.3
+    - clip: {fileID: 8300000, guid: 76185d8b98327d5438a19b3431ed2d43, type: 3}
+      volume: 0.3
+  - key: UIMoney
+    sounds:
+    - clip: {fileID: 8300000, guid: 37396b6263d473d40a560ba78080bb20, type: 3}
+      volume: 0.2
+  - key: Fail
+    sounds:
+    - clip: {fileID: 8300000, guid: 02473f57ad497724db4bdba50bfb3d22, type: 3}
+      volume: 0.5
+    - clip: {fileID: 8300000, guid: fcf69789f3969544699cc954ddcaa8f9, type: 3}
+      volume: 0.5
+  - key: Win
+    sounds:
+    - clip: {fileID: 8300000, guid: 4e9598f1e58d7a04191a6430ac428a99, type: 3}
+      volume: 0.5
+    - clip: {fileID: 8300000, guid: c479bf60d7388e943a56e50f6a5d5299, type: 3}
+      volume: 0.5
+  - key: EnvCity
+    sounds:
+    - clip: {fileID: 8300000, guid: 4219bb72e6dbed04aac48a2bdefc8716, type: 3}
+      volume: 0.35
+  - key: EnvHill
+    sounds:
+    - clip: {fileID: 8300000, guid: d86eca239323eea40adea0f45eef248b, type: 3}
+      volume: 0.2
+  - key: EnvWater
+    sounds:
+    - clip: {fileID: 8300000, guid: 65fe27ec6c661444f88fe3463ae6f8d5, type: 3}
+      volume: 0.03
+  - key: EnvLava
+    sounds:
+    - clip: {fileID: 8300000, guid: d7ac5fc055413a0419a868f5b535ff7c, type: 3}
+      volume: 0.5
+  - key: Rope
+    sounds:
+    - clip: {fileID: 8300000, guid: 92786cd2fea34fd418109ee2f2dbe6ea, type: 3}
+      volume: 0.35
+    - clip: {fileID: 8300000, guid: e7d83050a3e677442b16fba5c74cc858, type: 3}
+      volume: 0.35
+    - clip: {fileID: 8300000, guid: 040137dd9db45ba4db22c2b320eecee2, type: 3}
+      volume: 0.35
+    - clip: {fileID: 8300000, guid: 75092f53f1a1f7e46b65f0fa2f18b8f7, type: 3}
+      volume: 0.35
+  - key: Showcase
+    sounds:
+    - clip: {fileID: 8300000, guid: 4e9598f1e58d7a04191a6430ac428a99, type: 3}
+      volume: 0.5
