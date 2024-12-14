@@ -16,7 +16,7 @@ public class LevelTransitionEffect : MonoBehaviour
 
     [SerializeField] private SpriteRenderer _back;
     [SerializeField] private SpriteMask _hole;
-    [SerializeField] private SpriteRenderer _front;
+
 
     private void Awake()
     {
@@ -31,6 +31,7 @@ public class LevelTransitionEffect : MonoBehaviour
 
         float size = (Mathf.Tan(0.5f * Camera.main.fieldOfView) * 0.01f * 4f) * 2f;
         transform.localScale = Vector3.one * size;
+        DoTransition(null);
     }
 
     public void DoTransition(Action onComplete)
@@ -42,21 +43,15 @@ public class LevelTransitionEffect : MonoBehaviour
         transitionSequence.Append(_hole.transform.DOScale(0f, 1f)
             .SetEase(Ease.OutQuad));
 
-        // Включаем _front после завершения сжатия
-        transitionSequence.AppendCallback(() => _front.gameObject.SetActive(true));
-
-        // Добавляем задержку (оставаться на месте)
-        transitionSequence.AppendInterval(2f);
-
         // Вызываем onComplete после задержки
         transitionSequence.AppendCallback(() => onComplete?.Invoke());
 
         // Анимация возвращения (_hole увеличивается до 1)
-        transitionSequence.Append(_hole.transform.DOScale(1f, 0.5f)
+        transitionSequence.Append(_hole.transform.DOScale(2f, 0.5f)
             .SetEase(Ease.InQuad));
 
         // После завершения всей последовательности скрываем _front
-        transitionSequence.OnComplete(() => _front.gameObject.SetActive(false));
+        //transitionSequence.OnComplete(() => );
     }
 
 
