@@ -13,7 +13,7 @@ public class LevelTransitionEffect : MonoBehaviour
     public static LevelTransitionEffect Default => _default;
 
     #endregion
-
+    [SerializeField] private RewardAdHandler _rewardAdHandler;
     [SerializeField] private SpriteRenderer _back;
     [SerializeField] private SpriteMask _hole;
 
@@ -45,13 +45,14 @@ public class LevelTransitionEffect : MonoBehaviour
 
         // Вызываем onComplete после задержки
         transitionSequence.AppendCallback(() => onComplete?.Invoke());
+        transitionSequence.AppendCallback(() => _rewardAdHandler.ShowAd());
 
         // Анимация возвращения (_hole увеличивается до 1)
         transitionSequence.Append(_hole.transform.DOScale(2f, 0.5f)
             .SetEase(Ease.InQuad));
 
         // После завершения всей последовательности скрываем _front
-        //transitionSequence.OnComplete(() => );
+
     }
 
 
