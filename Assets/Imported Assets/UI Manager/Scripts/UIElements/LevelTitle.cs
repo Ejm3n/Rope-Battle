@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using BG.UI.Main;
+using YG;
 
 namespace BG.UI.Elements
 {
@@ -10,6 +11,9 @@ namespace BG.UI.Elements
     {
         [SerializeField] private string _titleTextBeforeNum;
         [SerializeField] private string _titleTextAfterNum;
+        [SerializeField] private string _titleTextBeforeNumRu;
+        [SerializeField] private string _titleTextAfterNumRu;
+
 
         private Panel _panel;
         private TextMeshProUGUI _titleUI;
@@ -32,12 +36,15 @@ namespace BG.UI.Elements
         }
 
 
-        private void HandleOnPanelShow() 
+        private void HandleOnPanelShow()
         {
-            _titleUI.text = $"{_titleTextBeforeNum} {LevelManager.Default.CurrentLevelCount} {_titleTextAfterNum}";
+            if (YandexGame.lang == "en")
+                _titleUI.text = $"{_titleTextBeforeNum} {LevelManager.Default.CurrentLevelCount} {_titleTextAfterNum}";
+            else if (YandexGame.lang == "ru")
+                _titleUI.text = $"{_titleTextBeforeNumRu} {LevelManager.Default.CurrentLevelCount} {_titleTextAfterNumRu}";
         }
 
-        private void HandleOnPanelHide() 
+        private void HandleOnPanelHide()
         {
 
         }

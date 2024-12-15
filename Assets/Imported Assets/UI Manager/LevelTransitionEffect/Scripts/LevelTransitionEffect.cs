@@ -31,7 +31,7 @@ public class LevelTransitionEffect : MonoBehaviour
 
         float size = (Mathf.Tan(0.5f * Camera.main.fieldOfView) * 0.01f * 4f) * 2f;
         transform.localScale = Vector3.one * size;
-        DoTransition(null);
+        //DoTransition(null);
     }
 
     public void DoTransition(Action onComplete)

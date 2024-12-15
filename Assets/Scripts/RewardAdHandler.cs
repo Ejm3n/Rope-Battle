@@ -53,7 +53,9 @@ public class RewardAdHandler : MonoBehaviour
 
     private void OnRewardedAdClosed()
     {
-        // Возобновление игры после закрытия рекламы
+        Time.timeScale = 1; // Возобновление игрового времени
+        Debug.Log("money added: " + MoneyService.Default.GetMoney());
+        MoneyService.Default.AddMoney(MoneyService.Default.GetMoney());
         Debug.Log("Rewarded Ad закрыта");
     }
 }
