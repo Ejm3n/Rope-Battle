@@ -49,8 +49,9 @@ MonoBehaviour:
   gizmosColor: {r: 0, g: 1, b: 0, a: 1}
   isBoss: 0
   _name: Pawn
+  _nameRu: "\u0413\u043D\u043E\u043C\u0438\u043A"
   power: 10
-  renderPos: {x: 0, y: -1.16, z: 0.17}
+  renderPos: {x: 0, y: -1, z: 0.17}
   renderRot: {x: 0, y: 0, z: 0, w: 0}
   model: {fileID: 7106202602981012918}
   anim: {fileID: 8012693320039709636}

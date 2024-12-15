@@ -49,8 +49,9 @@ MonoBehaviour:
   gizmosColor: {r: 0.7075472, g: 0.43409032, b: 0.1702118, a: 1}
   isBoss: 0
   _name: Cowboy
+  _nameRu: "\u041A\u043E\u0432\u0431\u043E\u0439"
   power: 200
-  renderPos: {x: 0.092, y: -1.297, z: 0.693}
+  renderPos: {x: 0.092, y: -1, z: 0.693}
   renderRot: {x: -0.031979688, y: 0.9897118, z: -0.054559894, w: 0.1283392}
   model: {fileID: 7891919209313684646}
   anim: {fileID: 2026554343565042814}

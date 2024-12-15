@@ -1503,8 +1503,9 @@ MonoBehaviour:
   gizmosColor: {r: 1, g: 0.46839368, b: 0, a: 1}
   isBoss: 1
   _name: Robot
+  _nameRu: "\u0420\u043E\u0431\u043E\u0442"
   power: 1500
-  renderPos: {x: 0.05, y: -2.79, z: -0.58}
+  renderPos: {x: 0.05, y: -2, z: -0.58}
   renderRot: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   model: {fileID: 1654457928179654667}
   anim: {fileID: 182252049790079918}

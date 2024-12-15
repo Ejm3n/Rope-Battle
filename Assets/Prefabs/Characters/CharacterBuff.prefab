@@ -49,8 +49,9 @@ MonoBehaviour:
   gizmosColor: {r: 1, g: 0, b: 1, a: 1}
   isBoss: 0
   _name: Buff
+  _nameRu: "\u0421\u0438\u043B\u0430\u0447"
   power: 30
-  renderPos: {x: 0, y: -1.16, z: 0.17}
+  renderPos: {x: 0, y: -1, z: 0.17}
   renderRot: {x: -0.00000021665271, y: 0.9862641, z: 0.000000025653087, w: 0.16517586}
   model: {fileID: 966292806360754159}
   anim: {fileID: 2478892252616745314}

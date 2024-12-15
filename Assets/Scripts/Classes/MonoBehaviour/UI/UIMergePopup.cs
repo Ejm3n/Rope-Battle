@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using DG.Tweening;
 using UnityEngine.UI;
+using YG;
 
 public class UIMergePopup : MonoBehaviour
 {
@@ -33,32 +34,35 @@ public class UIMergePopup : MonoBehaviour
 
     public void SetInfo(Character character)
     {
-        nameInfo.SetText(character.Name);
+        if (YandexGame.lang == "en")
+            nameInfo.SetText(character.Name);
+        else if (YandexGame.lang == "ru")
+            nameInfo.SetText(character.NameRu);
         powerInfo.SetText(character.Power.ToString());
         if (character.IsBoss)
             background.sprite = boss;
         else
             background.sprite = def;
-       // iconInfo.sprite = character.Icon;
-       //int i;
-       //for (i = 0; i < stars.Count && i < character.Tier; i++)
-       //{
-       //    stars[i].SetActive(true);
-       //}
-       //if (stars.Count < character.Tier)
-       //{
-       //    for (; i < character.Tier; i++)
-       //    {
-       //        stars.Add(Instantiate(stars[0], layout.transform));
-       //    }
-       //}
-       //else
-       //{
-       //    for (; i < stars.Count; i++)
-       //    {
-       //        stars[i].SetActive(false);
-       //    }
-       //}
+        // iconInfo.sprite = character.Icon;
+        //int i;
+        //for (i = 0; i < stars.Count && i < character.Tier; i++)
+        //{
+        //    stars[i].SetActive(true);
+        //}
+        //if (stars.Count < character.Tier)
+        //{
+        //    for (; i < character.Tier; i++)
+        //    {
+        //        stars.Add(Instantiate(stars[0], layout.transform));
+        //    }
+        //}
+        //else
+        //{
+        //    for (; i < stars.Count; i++)
+        //    {
+        //        stars[i].SetActive(false);
+        //    }
+        //}
     }
 
     public void Show(bool anim = true)
@@ -89,7 +93,7 @@ public class UIMergePopup : MonoBehaviour
         group.DOKill();
         if (anim)
         {
-            group.DOFade(0f, duration * 0.25f).OnComplete(()=> { OnHide?.Invoke(); });
+            group.DOFade(0f, duration * 0.25f).OnComplete(() => { OnHide?.Invoke(); });
         }
         else
         {

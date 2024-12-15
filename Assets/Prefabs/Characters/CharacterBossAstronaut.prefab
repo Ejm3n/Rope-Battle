@@ -259,8 +259,9 @@ MonoBehaviour:
   gizmosColor: {r: 1, g: 1, b: 1, a: 1}
   isBoss: 1
   _name: Astronaut
+  _nameRu: "\u041A\u043E\u0441\u043C\u043E\u043D\u0430\u0432\u0442"
   power: 2000
-  renderPos: {x: 0.065, y: -1.821, z: 0.302}
+  renderPos: {x: 0.065, y: -1, z: 0.302}
   renderRot: {x: -0.009003919, y: 0.9890831, z: 0.06839152, w: 0.13021532}
   model: {fileID: 4325110548248949639}
   anim: {fileID: 5726957020633974185}

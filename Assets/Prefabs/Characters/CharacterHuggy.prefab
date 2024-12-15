@@ -49,8 +49,9 @@ MonoBehaviour:
   gizmosColor: {r: 0, g: 0, b: 1, a: 1}
   isBoss: 0
   _name: Huggy
+  _nameRu: "\u0425\u0430\u0433\u0433\u0438"
   power: 200
-  renderPos: {x: 0, y: -1.52, z: 0.25}
+  renderPos: {x: 0, y: -1, z: 0.25}
   renderRot: {x: 0, y: 0.9914448, z: 0, w: 0.13052624}
   model: {fileID: 2160897079699925054}
   anim: {fileID: 6036194263310772610}

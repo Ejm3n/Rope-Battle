@@ -259,8 +259,9 @@ MonoBehaviour:
   gizmosColor: {r: 0.06642928, g: 0, b: 0.8679245, a: 1}
   isBoss: 1
   _name: Viking
+  _nameRu: "\u0412\u0438\u043A\u0438\u043D\u0433"
   power: 300
-  renderPos: {x: 0.08, y: -2.31, z: 0.51}
+  renderPos: {x: 0.08, y: -1.5, z: 0.51}
   renderRot: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   model: {fileID: 5737998484093781680}
   anim: {fileID: 1381033062168119073}

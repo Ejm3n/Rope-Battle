@@ -49,8 +49,9 @@ MonoBehaviour:
   gizmosColor: {r: 0.38022757, g: 0, b: 1, a: 1}
   isBoss: 0
   _name: Big Man
+  _nameRu: "\u0413\u0438\u0433\u0430\u043D\u0442"
   power: 5000
-  renderPos: {x: 0, y: -1.6, z: 1.43}
+  renderPos: {x: 0, y: -1, z: 1.43}
   renderRot: {x: 0, y: 0.9238795, z: 0, w: 0.38268343}
   model: {fileID: 9126764745009179848}
   anim: {fileID: 8688091243287472001}

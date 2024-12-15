@@ -50,8 +50,9 @@ MonoBehaviour:
   gizmosColor: {r: 0.6462264, g: 0.7040424, b: 1, a: 1}
   isBoss: 0
   _name: Policeman
+  _nameRu: "\u041F\u043E\u043B\u0438\u0446\u0435\u0439\u0441\u043A\u0438\u0439"
   power: 1000
-  renderPos: {x: 0.07, y: -2.25, z: 0.5}
+  renderPos: {x: 0.07, y: -2, z: 0.5}
   renderRot: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   model: {fileID: 8982206063642894888}
   anim: {fileID: 4259600400970200418}

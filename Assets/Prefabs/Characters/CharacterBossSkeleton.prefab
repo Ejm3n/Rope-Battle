@@ -51,8 +51,9 @@ MonoBehaviour:
   gizmosColor: {r: 0.495283, g: 1, b: 0.76271296, a: 1}
   isBoss: 1
   _name: Skeleton
+  _nameRu: "\u0421\u043A\u0435\u043B\u0435\u0442"
   power: 3500
-  renderPos: {x: 0, y: -2.3667579, z: 0.3061862}
+  renderPos: {x: 0, y: -2, z: 0.3061862}
   renderRot: {x: -0.000000005705486, y: 0.9914448, z: -0.1305263, w: -0.00000004333743}
   model: {fileID: 9041471648558755105}
   anim: {fileID: 3797538425645769535}

@@ -259,8 +259,9 @@ MonoBehaviour:
   gizmosColor: {r: 0, g: 0.80257726, b: 1, a: 1}
   isBoss: 1
   _name: Teddy
+  _nameRu: "\u041C\u0438\u0448\u043A\u0430"
   power: 300
-  renderPos: {x: 0, y: -2.44, z: 0}
+  renderPos: {x: 0, y: -2, z: 0}
   renderRot: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   model: {fileID: 3956991819186903044}
   anim: {fileID: 3558044251864334291}

@@ -8,6 +8,7 @@ public class Character : PoolObject
     public Color gizmosColor = Color.green;
     [SerializeField] private bool isBoss;
     [SerializeField] private string _name;
+    [SerializeField] private string _nameRu;
     [SerializeField] private float power = 10f;
     [SerializeField] Vector3 renderPos = Vector3.zero;
     [SerializeField] Quaternion renderRot = Quaternion.identity;
@@ -15,12 +16,13 @@ public class Character : PoolObject
     //[SerializeField] private int tier;
     [SerializeField] private Transform model;
     [SerializeField] private CharacterAnimation anim;
-    
+
     public bool IsBoss => isBoss;
     public float Power => power;
     public CharacterAnimation Animation => anim;
-   // public int Tier => tier;
+    // public int Tier => tier;
     public string Name => _name;
+    public string NameRu => _nameRu;
 
     public Vector3 RenderPos => renderPos;
     public Quaternion RenderRot => renderRot;
@@ -37,7 +39,7 @@ public class Character : PoolObject
     public override void Push()
     {
         base.Push();
-        SetLayer(gameObject,0);
+        SetLayer(gameObject, 0);
     }
     public void SetLayer(GameObject go, int layerNumber)
     {

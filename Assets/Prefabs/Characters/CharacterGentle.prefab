@@ -49,8 +49,9 @@ MonoBehaviour:
   gizmosColor: {r: 0, g: 0, b: 0, a: 1}
   isBoss: 0
   _name: Gentle
+  _nameRu: "\u0414\u0436\u0435\u043D\u0442\u0435\u043B\u044C\u043C\u0435\u043D"
   power: 2000
-  renderPos: {x: 0, y: -1.81, z: 1.44}
+  renderPos: {x: 0, y: -1, z: 1.44}
   renderRot: {x: -0.0000000029540153, y: 0.99771386, z: -0.06757999, w: -0.000000043611458}
   model: {fileID: 381353826298361436}
   anim: {fileID: 4946820574065152006}
