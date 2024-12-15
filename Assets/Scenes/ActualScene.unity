@@ -825,6 +825,11 @@ PrefabInstance:
       propertyPath: _titleTextBeforeNumRu
       value: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C"
       objectReference: {fileID: 0}
+    - target: {fileID: 222972515742235913, guid: 59ecefeb3ff815943a3701b288e39f57,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 109
+      objectReference: {fileID: 0}
     - target: {fileID: 1279138966230556887, guid: 59ecefeb3ff815943a3701b288e39f57,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -835,11 +840,31 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.06
       objectReference: {fileID: 0}
+    - target: {fileID: 1775408836504565493, guid: 59ecefeb3ff815943a3701b288e39f57,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775408836504565493, guid: 59ecefeb3ff815943a3701b288e39f57,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086267792694902132, guid: 59ecefeb3ff815943a3701b288e39f57,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2490452316616412699, guid: 59ecefeb3ff815943a3701b288e39f57,
         type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1761179525}
+    - target: {fileID: 2550664320948266701, guid: 59ecefeb3ff815943a3701b288e39f57,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -219.18213
+      objectReference: {fileID: 0}
     - target: {fileID: 2845665634810188749, guid: 59ecefeb3ff815943a3701b288e39f57,
         type: 3}
       propertyPath: _titleTextAfterNumRu
@@ -859,6 +884,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512017496673459132, guid: 59ecefeb3ff815943a3701b288e39f57,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 106
       objectReference: {fileID: 0}
     - target: {fileID: 4830076284957032758, guid: 59ecefeb3ff815943a3701b288e39f57,
         type: 3}
@@ -955,11 +985,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6922767759938746526, guid: 59ecefeb3ff815943a3701b288e39f57,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -219.18213
+      objectReference: {fileID: 0}
     - target: {fileID: 7097008835881408466, guid: 59ecefeb3ff815943a3701b288e39f57,
         type: 3}
       propertyPath: _rewardAdHandler
       value: 
       objectReference: {fileID: 620747712}
+    - target: {fileID: 7363377208607024267, guid: 59ecefeb3ff815943a3701b288e39f57,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -219.18213
+      objectReference: {fileID: 0}
     - target: {fileID: 7852238131018207337, guid: 59ecefeb3ff815943a3701b288e39f57,
         type: 3}
       propertyPath: m_RootOrder
@@ -974,6 +1014,11 @@ PrefabInstance:
         type: 3}
       propertyPath: orthographic size
       value: 2.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 9202326088968918985, guid: 59ecefeb3ff815943a3701b288e39f57,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -219.18213
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59ecefeb3ff815943a3701b288e39f57, type: 3}
@@ -2614,153 +2659,7 @@ MonoBehaviour:
   processTranslateLabel: 3/19 completed
   componentTextField: 1
   countLang: 3
---- !u!1 &1739509144 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8201172602907458637, guid: 59ecefeb3ff815943a3701b288e39f57,
-    type: 3}
-  m_PrefabInstance: {fileID: 381908169}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1739509146 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4009184165437177622, guid: 59ecefeb3ff815943a3701b288e39f57,
-    type: 3}
-  m_PrefabInstance: {fileID: 381908169}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739509144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1739509148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739509144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1739509146}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "\u041F\u0415\u0420\u0415\u0417\u0410\u041F\u0423\u0421\u041A"
-  en: RESTART
-  tr: "TEKRAR BA\u015ELAT"
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 3/19 completed
-  componentTextField: 1
-  countLang: 3
---- !u!20 &1761179525 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7380728764902970702, guid: 7c368ded4eee9a0419e4dddd3eccbc15,
-    type: 3}
-  m_PrefabInstance: {fileID: 7380728763217940630}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1780341105 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3044822165354449835, guid: 59ecefeb3ff815943a3701b288e39f57,
-    type: 3}
-  m_PrefabInstance: {fileID: 381908169}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1780341109 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8758901647032569248, guid: 59ecefeb3ff815943a3701b288e39f57,
-    type: 3}
-  m_PrefabInstance: {fileID: 381908169}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780341105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1780341111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780341105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMPComponent: {fileID: 1780341109}
-  uniqueFontTMP: {fileID: 0}
-  textLComponent: {fileID: 0}
-  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
-  text: 
-  ru: "9999<\u0438\u043D\u0434\u0435\u043A\u0441 \u0441\u043F\u0440\u0430\u0439\u0442\u0430=0>"
-  en: 9999<sprite index=0>
-  tr: 9999<sprite dizini=0>
-  az: 
-  be: 
-  he: 
-  hy: 
-  ka: 
-  et: 
-  fr: 
-  kk: 
-  ky: 
-  lt: 
-  lv: 
-  ro: 
-  tg: 
-  tk: 
-  uk: 
-  uz: 
-  es: 
-  pt: 
-  ar: 
-  id: 
-  ja: 
-  it: 
-  de: 
-  hi: 
-  changeOnlyFont: 0
-  fontNumber: 0
-  uniqueFont: {fileID: 0}
-  additionalText: {fileID: 0}
-  textHeight: 20
-  processTranslateLabel: 3/19 completed
-  componentTextField: 1
-  countLang: 3
---- !u!43 &1873107088
+--- !u!43 &1654225495
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2924,6 +2823,152 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1739509144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8201172602907458637, guid: 59ecefeb3ff815943a3701b288e39f57,
+    type: 3}
+  m_PrefabInstance: {fileID: 381908169}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1739509146 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4009184165437177622, guid: 59ecefeb3ff815943a3701b288e39f57,
+    type: 3}
+  m_PrefabInstance: {fileID: 381908169}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739509144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1739509148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739509144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 1739509146}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 0}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "\u041F\u0415\u0420\u0415\u0417\u0410\u041F\u0423\u0421\u041A"
+  en: RESTART
+  tr: "TEKRAR BA\u015ELAT"
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 3/19 completed
+  componentTextField: 1
+  countLang: 3
+--- !u!20 &1761179525 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7380728764902970702, guid: 7c368ded4eee9a0419e4dddd3eccbc15,
+    type: 3}
+  m_PrefabInstance: {fileID: 7380728763217940630}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1780341105 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3044822165354449835, guid: 59ecefeb3ff815943a3701b288e39f57,
+    type: 3}
+  m_PrefabInstance: {fileID: 381908169}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1780341109 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8758901647032569248, guid: 59ecefeb3ff815943a3701b288e39f57,
+    type: 3}
+  m_PrefabInstance: {fileID: 381908169}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780341105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1780341111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780341105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 1780341109}
+  uniqueFontTMP: {fileID: 0}
+  textLComponent: {fileID: 0}
+  infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
+  text: 
+  ru: "9999<\u0438\u043D\u0434\u0435\u043A\u0441 \u0441\u043F\u0440\u0430\u0439\u0442\u0430=0>"
+  en: 9999<sprite index=0>
+  tr: 9999<sprite dizini=0>
+  az: 
+  be: 
+  he: 
+  hy: 
+  ka: 
+  et: 
+  fr: 
+  kk: 
+  ky: 
+  lt: 
+  lv: 
+  ro: 
+  tg: 
+  tk: 
+  uk: 
+  uz: 
+  es: 
+  pt: 
+  ar: 
+  id: 
+  ja: 
+  it: 
+  de: 
+  hi: 
+  changeOnlyFont: 0
+  fontNumber: 0
+  uniqueFont: {fileID: 0}
+  additionalText: {fileID: 0}
+  textHeight: 20
+  processTranslateLabel: 3/19 completed
+  componentTextField: 1
+  countLang: 3
 --- !u!114 &1456081907059350736
 MonoBehaviour:
   m_ObjectHideFlags: 0
